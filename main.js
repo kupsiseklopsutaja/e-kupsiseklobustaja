@@ -24,6 +24,6 @@ vanaemaNupp.onclick = function(){
     document.getElementById("vanaemaHind").innerHTML = "Hind: " + vanaemaHind;
     counter.innerHTML = count;
   } else {
-    alert("Sa oled vaene rott!");
+    alert("Sa oled vaene");
   }
 }
