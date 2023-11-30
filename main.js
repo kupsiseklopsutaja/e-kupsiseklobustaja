@@ -17,6 +17,13 @@ kupsis.onclick = function(){
 };
 
 vanaemaNupp.onclick = function(){
-  count = count - vanaemaHind
-  vanaemaHind = vanaemaHind * 1.3
+  if(count >= vanaemaHind) {
+    count = count - vanaemaHind;
+    vanaemaCount = vanaemaCount + 1;
+    vanaemaHind = Math.floor(vanaemaHind * 1.15);
+    document.getElementById("vanaemaHind").innerHTML = "Hind: " + vanaemaHind;
+    counter.innerHTML = count;
+  } else {
+    alert("Sa oled vaene rott!");
+  }
 }
