@@ -15,3 +15,8 @@ kupsis.onclick = function(){
   let heli = helid[Math.floor(Math.random() * helid.length)];
   heli.play();
 };
+
+vanaemaNupp.onclick = function(){
+  count = count - vanaemaHind
+  vanaemaHind = vanaemaHind * 1.3
+}
