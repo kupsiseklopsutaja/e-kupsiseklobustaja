@@ -29,3 +29,7 @@ vanaemaNupp.onclick = function(){
     alert("Sa oled vaene rott!");
   }
 }
+setInterval(function(){
+  count = count + vanaemaCount * 2;
+  counter.innerHTML = count;
+}, 1000);
