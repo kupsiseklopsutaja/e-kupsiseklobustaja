@@ -30,6 +30,6 @@ vanaemaNupp.onclick = function(){
   }
 }
 setInterval(function(){
-  count = count + vanaemaCount * 2;
+  count = count + vanaemaCount * 1;
   counter.innerHTML = count;
 }, 1000);
