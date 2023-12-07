@@ -61,3 +61,11 @@ button:disabled {
   height: 256px;
   cursor: pointer;
 }
+#vanaemaPold {
+  border-radius: 25px;
+  background: #a5a7a3;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  color: #000;
+}
