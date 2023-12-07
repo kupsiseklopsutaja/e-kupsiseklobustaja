@@ -5,7 +5,8 @@ var vanaemaNupp = document.getElementById("vanaemaNupp");
 var vanaemaPold = document.getElementById("vanaemaPold");
 var vanaemaCount = 0;
 var vanaemaPower = 1;
-var sekundis = document.getElementById("sekundis")
+var sekundiscount = document.getElementById("sekundis");
+var sekundis = 0
 var vanaemaHind = 100;
 var helid = [document.getElementById('heli1'), document.getElementById('heli2'), document.getElementById('heli3')];
 
@@ -35,5 +36,5 @@ setInterval(function(){
   count = count + vanaemaCount * vanaemaPower;
   counter.innerHTML = count;
   sekundis = vanaemaCount * vanaemaPower;
-  sekundis.innerHTML = "Küpsiseid sekundis: " + sekundis;
+  sekundiscount.innerHTML = "Küpsiseid sekundis: " + sekundis;
 }, 1000);
