@@ -35,5 +35,5 @@ setInterval(function(){
   count = count + vanaemaCount * vanaemaPower;
   counter.innerHTML = count;
   sekundis = vanaemaCount * vanaemaPower;
-  document.getElementById("sekundis").innerHTML = "Küpsiseid sekundis: " + sekundis;
+  sekundis.innerHTML = "Küpsiseid sekundis: " + sekundis;
 }, 1000);
