@@ -47,8 +47,8 @@ h1 {
 button {
   background-color: #04AA6D;
   border: none;
-  color: white;
-  padding: 15px 32px;
+  color: #ffffff;
+  padding: 7px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -59,7 +59,7 @@ button {
   background-color: #7b7d7c;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 7px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
