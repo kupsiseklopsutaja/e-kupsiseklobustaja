@@ -32,7 +32,7 @@ vanaemaNupp.onclick = function(){
     var img = document.createElement("img");
     img.src = "/failid/vanaema.png";
     img.alt = "Vanaema";
-    img.height = "50%";
+    img.height = "100";
     document.getElementById("pildiPold").appendChild(img); 
   } else {
     alert("Sa oled vaene rott!");
