@@ -80,3 +80,12 @@ button {
   height: 150px;
   color: #000;
 }
+
+#pildiPold {
+  border-radius: 25px;
+  background: #2c97285e;
+  padding: 20px;
+  width: 450px;
+  height: 200px;
+  color: #000	;
+}

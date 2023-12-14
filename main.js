@@ -28,6 +28,12 @@ vanaemaNupp.onclick = function(){
     vanaemaHind = Math.floor(vanaemaHind * 1.15);
     document.getElementById("vanaemaHind").innerHTML = "Hind: " + vanaemaHind;
     counter.innerHTML = count;
+
+    var img = document.createElement("img");
+    img.src = "failid/vanaema.png";
+    img.alt = "Vanaema";
+    img.height = "50%";
+    document.getElementById("pildiPold").appendChild(img); 
   } else {
     alert("Sa oled vaene rott!");
   }
